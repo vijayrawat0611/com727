@@ -1,0 +1,2305 @@
+{
+    "intents": [
+        {
+            "tag": "greetings",
+            "patterns": [
+                "hello",
+                "hey",
+                "hi",
+                "good day",
+                "Greetings",
+                "what's up",
+                "how is it going"
+            ],
+            "responses": [
+                "Hello!",
+                "Hey!",
+                "What can I do for you?"
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "See ya",
+                "see you later",
+                "bye",
+                "goodbye",
+                "have a nice day",
+                "bye bye"
+            ],
+            "responses": [
+                "Goodbye!",
+                "See you later.",
+                "Please come back soon."
+            ]
+        },
+        {
+            "tag": "age",
+            "patterns": [
+                "how old",
+                "how old are you",
+                "what is your age",
+                "how old are you",
+                "age?"
+            ],
+            "responses": [
+                "My owner is Kashif and he is very old",
+                "Don't know",
+                "My owner is ancient"
+            ]
+        },
+        {
+            "tag": "name",
+            "patterns": [
+                "name",
+                "your name",
+                "what should I call you",
+                "who are you"
+            ],
+            "responses": [
+                "I'm a Chatbot.",
+                "My name is AI Chatbot.",
+                "I am your Chatbot."
+            ]
+        },
+        {
+            "tag": "shop",
+            "patterns": [
+                "i would like to buy something",
+                "what are your products",
+                "what do you sell",
+                "product names"
+            ],
+            "responses": [
+                "You can buy Laptops, Monitors, PCs from us.",
+                "We sell computers and accessories.",
+                "We are computer sellers."
+            ]
+        },
+        {
+            "tag": "hours",
+            "patterns": [
+                "when you open",
+                "opening hours",
+                "what time you close",
+                "closing hours",
+                "what are your hours",
+                "when you open",
+                "when you close"
+            ],
+            "responses": [
+                "We are 24/7.",
+                "We are open 24 hours seven days a week.",
+                "24/7"
+            ]
+        },
+        {
+            "tag": "default",
+            "patterns": [],
+            "responses": [
+                "Please ask me anything related to my shop.",
+                "How can I help you in shopping computers?"
+            ]
+        },
+        {
+            "tag": "medical_greeting",
+            "patterns": [
+                "hi",
+                "hello",
+                "hey",
+                "good day"
+            ],
+            "responses": [
+                "Hello! I am your medical chatbot. How can I assist you today?"
+            ]
+        },
+        {
+            "tag": "symptom_analysis",
+            "patterns": [
+                "I have a high fever and sore throat and my body feels tired",
+                "My throat is sore and I feel feverish",
+                "I have a headache and sore throat",
+                "I feel tired, have a sore throat, and headache",
+                "My throat is sore, and I have a headache",
+                "I feel weak, and my head hurts with throat pain"
+            ],
+            "responses": [
+                "It seems you may have a common cold or flu. For a headache, consider taking paracetamol, and for a sore throat, warm salt water gargles may help. Consult a doctor for a detailed check-up."
+            ]
+        },
+        {
+            "tag": "remedy_request",
+            "patterns": [
+                "What should I take for fever?",
+                "What can I do for a sore throat?"
+            ],
+            "responses": [
+                "For fever, you might try paracetamol, and for a sore throat, gargling with warm salt water can help."
+            ]
+        },
+        {
+            "tag": "fungal_infection",
+            "patterns": [
+                "itching, skin rash, nodal skin eruptions, dischromic  patches",
+                "I have symptoms related to fungal infection",
+                "I think I have fungal infection",
+                "My symptoms point to fungal infection",
+                "What can I do for fungal infection?"
+            ],
+            "responses": [
+                "The diagnosis is Fungal Infection. For fungal infections, it's best to use a topical antifungal cream like clotrimazole or miconazole directly on the affected area. If the infection is severe, an oral antifungal like fluconazole might be necessary."
+            ]
+        },
+        {
+            "tag": "fungal_infection",
+            "patterns": [
+                "skin rash, nodal skin eruptions, dischromic  patches",
+                "I have symptoms related to fungal infection",
+                "I think I have fungal infection",
+                "My symptoms point to fungal infection",
+                "What can I do for fungal infection?"
+            ],
+            "responses": [
+                "The diagnosis is Fungal Infection. For fungal infections, it's best to use a topical antifungal cream like clotrimazole or miconazole directly on the affected area. If the infection is severe, an oral antifungal like fluconazole might be necessary."
+            ]
+        },
+        {
+            "tag": "fungal_infection",
+            "patterns": [
+                "itching, nodal skin eruptions, dischromic  patches",
+                "I have symptoms related to fungal infection",
+                "I think I have fungal infection",
+                "My symptoms point to fungal infection",
+                "What can I do for fungal infection?"
+            ],
+            "responses": [
+                "The diagnosis is Fungal Infection. For fungal infections, it's best to use a topical antifungal cream like clotrimazole or miconazole directly on the affected area. If the infection is severe, an oral antifungal like fluconazole might be necessary."
+            ]
+        },
+        {
+            "tag": "fungal_infection",
+            "patterns": [
+                "itching, skin rash, dischromic  patches",
+                "I have symptoms related to fungal infection",
+                "I think I have fungal infection",
+                "My symptoms point to fungal infection",
+                "What can I do for fungal infection?"
+            ],
+            "responses": [
+                "The diagnosis is Fungal Infection. For fungal infections, it's best to use a topical antifungal cream like clotrimazole or miconazole directly on the affected area. If the infection is severe, an oral antifungal like fluconazole might be necessary."
+            ]
+        },
+        {
+            "tag": "fungal_infection",
+            "patterns": [
+                "itching, skin rash, nodal skin eruptions",
+                "I have symptoms related to fungal infection",
+                "I think I have fungal infection",
+                "My symptoms point to fungal infection",
+                "What can I do for fungal infection?"
+            ],
+            "responses": [
+                "The diagnosis is Fungal Infection. For fungal infections, it's best to use a topical antifungal cream like clotrimazole or miconazole directly on the affected area. If the infection is severe, an oral antifungal like fluconazole might be necessary."
+            ]
+        },
+        {
+            "tag": "allergy",
+            "patterns": [
+                "continuous sneezing, shivering, chills, watering from eyes",
+                "I have symptoms related to allergy",
+                "I think I have allergy",
+                "My symptoms point to allergy",
+                "What can I do for allergy?"
+            ],
+            "responses": [
+                "The diagnosis is Allergy. To ease your allergy symptoms, antihistamines like loratadine or cetirizine can help. If you have nasal congestion, a decongestant might provide relief."
+            ]
+        },
+        {
+            "tag": "allergy",
+            "patterns": [
+                "shivering, chills, watering from eyes",
+                "I have symptoms related to allergy",
+                "I think I have allergy",
+                "My symptoms point to allergy",
+                "What can I do for allergy?"
+            ],
+            "responses": [
+                "The diagnosis is Allergy. To ease your allergy symptoms, antihistamines like loratadine or cetirizine can help. If you have nasal congestion, a decongestant might provide relief."
+            ]
+        },
+        {
+            "tag": "allergy",
+            "patterns": [
+                "continuous sneezing, chills, watering from eyes",
+                "I have symptoms related to allergy",
+                "I think I have allergy",
+                "My symptoms point to allergy",
+                "What can I do for allergy?"
+            ],
+            "responses": [
+                "The diagnosis is Allergy. To ease your allergy symptoms, antihistamines like loratadine or cetirizine can help. If you have nasal congestion, a decongestant might provide relief."
+            ]
+        },
+        {
+            "tag": "allergy",
+            "patterns": [
+                "continuous sneezing, shivering, watering from eyes",
+                "I have symptoms related to allergy",
+                "I think I have allergy",
+                "My symptoms point to allergy",
+                "What can I do for allergy?"
+            ],
+            "responses": [
+                "The diagnosis is Allergy. To ease your allergy symptoms, antihistamines like loratadine or cetirizine can help. If you have nasal congestion, a decongestant might provide relief."
+            ]
+        },
+        {
+            "tag": "allergy",
+            "patterns": [
+                "continuous sneezing, shivering, chills",
+                "I have symptoms related to allergy",
+                "I think I have allergy",
+                "My symptoms point to allergy",
+                "What can I do for allergy?"
+            ],
+            "responses": [
+                "The diagnosis is Allergy. To ease your allergy symptoms, antihistamines like loratadine or cetirizine can help. If you have nasal congestion, a decongestant might provide relief."
+            ]
+        },
+        {
+            "tag": "gerd",
+            "patterns": [
+                "stomach pain, acidity, ulcers on tongue, vomiting, cough, chest pain",
+                "I have symptoms related to gerd",
+                "I think I have gerd",
+                "My symptoms point to gerd",
+                "What can I do for gerd?"
+            ],
+            "responses": [
+                "The diagnosis is GERD. For heartburn or acid reflux, doctors often recommend proton pump inhibitors like omeprazole to reduce stomach acid. Antacids can also provide quick relief."
+            ]
+        },
+        {
+            "tag": "gerd",
+            "patterns": [
+                "stomach pain, ulcers on tongue, vomiting, cough, chest pain",
+                "I have symptoms related to gerd",
+                "I think I have gerd",
+                "My symptoms point to gerd",
+                "What can I do for gerd?"
+            ],
+            "responses": [
+                "The diagnosis is GERD. For heartburn or acid reflux, doctors often recommend proton pump inhibitors like omeprazole to reduce stomach acid. Antacids can also provide quick relief."
+            ]
+        },
+        {
+            "tag": "gerd",
+            "patterns": [
+                "stomach pain, acidity, vomiting, cough, chest pain",
+                "I have symptoms related to gerd",
+                "I think I have gerd",
+                "My symptoms point to gerd",
+                "What can I do for gerd?"
+            ],
+            "responses": [
+                "The diagnosis is GERD. For heartburn or acid reflux, doctors often recommend proton pump inhibitors like omeprazole to reduce stomach acid. Antacids can also provide quick relief."
+            ]
+        },
+        {
+            "tag": "gerd",
+            "patterns": [
+                "stomach pain, acidity, ulcers on tongue, cough, chest pain",
+                "I have symptoms related to gerd",
+                "I think I have gerd",
+                "My symptoms point to gerd",
+                "What can I do for gerd?"
+            ],
+            "responses": [
+                "The diagnosis is GERD. For heartburn or acid reflux, doctors often recommend proton pump inhibitors like omeprazole to reduce stomach acid. Antacids can also provide quick relief."
+            ]
+        },
+        {
+            "tag": "gerd",
+            "patterns": [
+                "stomach pain, acidity, ulcers on tongue, vomiting, chest pain",
+                "I have symptoms related to gerd",
+                "I think I have gerd",
+                "My symptoms point to gerd",
+                "What can I do for gerd?"
+            ],
+            "responses": [
+                "The diagnosis is GERD. For heartburn or acid reflux, doctors often recommend proton pump inhibitors like omeprazole to reduce stomach acid. Antacids can also provide quick relief."
+            ]
+        },
+        {
+            "tag": "gerd",
+            "patterns": [
+                "stomach pain, acidity, ulcers on tongue, vomiting, cough",
+                "I have symptoms related to gerd",
+                "I think I have gerd",
+                "My symptoms point to gerd",
+                "What can I do for gerd?"
+            ],
+            "responses": [
+                "The diagnosis is GERD. For heartburn or acid reflux, doctors often recommend proton pump inhibitors like omeprazole to reduce stomach acid. Antacids can also provide quick relief."
+            ]
+        },
+        {
+            "tag": "gerd",
+            "patterns": [
+                "acidity, ulcers on tongue, vomiting, cough, chest pain",
+                "I have symptoms related to gerd",
+                "I think I have gerd",
+                "My symptoms point to gerd",
+                "What can I do for gerd?"
+            ],
+            "responses": [
+                "The diagnosis is GERD. For heartburn or acid reflux, doctors often recommend proton pump inhibitors like omeprazole to reduce stomach acid. Antacids can also provide quick relief."
+            ]
+        },
+        {
+            "tag": "chronic_cholestasis",
+            "patterns": [
+                "itching, vomiting, yellowish skin, nausea, loss of appetite, abdominal pain, yellowing of eyes",
+                "I have symptoms related to chronic cholestasis",
+                "I think I have chronic cholestasis",
+                "My symptoms point to chronic cholestasis",
+                "What can I do for chronic cholestasis?"
+            ],
+            "responses": [
+                "The diagnosis is Chronic Cholestasis. For chronic cholestasis, ursodeoxycholic acid is used to improve bile flow, and vitamin supplements help address nutritional deficiencies."
+            ]
+        },
+        {
+            "tag": "chronic_cholestasis",
+            "patterns": [
+                "vomiting, yellowish skin, nausea, loss of appetite, abdominal pain, yellowing of eyes",
+                "I have symptoms related to chronic cholestasis",
+                "I think I have chronic cholestasis",
+                "My symptoms point to chronic cholestasis",
+                "What can I do for chronic cholestasis?"
+            ],
+            "responses": [
+                "The diagnosis is Chronic Cholestasis. For chronic cholestasis, ursodeoxycholic acid is used to improve bile flow, and vitamin supplements help address nutritional deficiencies."
+            ]
+        },
+        {
+            "tag": "chronic_cholestasis",
+            "patterns": [
+                "itching, yellowish skin, nausea, loss of appetite, abdominal pain, yellowing of eyes",
+                "I have symptoms related to chronic cholestasis",
+                "I think I have chronic cholestasis",
+                "My symptoms point to chronic cholestasis",
+                "What can I do for chronic cholestasis?"
+            ],
+            "responses": [
+                "The diagnosis is Chronic Cholestasis. For chronic cholestasis, ursodeoxycholic acid is used to improve bile flow, and vitamin supplements help address nutritional deficiencies."
+            ]
+        },
+        {
+            "tag": "chronic_cholestasis",
+            "patterns": [
+                "itching, vomiting, nausea, loss of appetite, abdominal pain, yellowing of eyes",
+                "I have symptoms related to chronic cholestasis",
+                "I think I have chronic cholestasis",
+                "My symptoms point to chronic cholestasis",
+                "What can I do for chronic cholestasis?"
+            ],
+            "responses": [
+                "The diagnosis is Chronic Cholestasis. For chronic cholestasis, ursodeoxycholic acid is used to improve bile flow, and vitamin supplements help address nutritional deficiencies."
+            ]
+        },
+        {
+            "tag": "chronic_cholestasis",
+            "patterns": [
+                "itching, vomiting, yellowish skin, loss of appetite, abdominal pain, yellowing of eyes",
+                "I have symptoms related to chronic cholestasis",
+                "I think I have chronic cholestasis",
+                "My symptoms point to chronic cholestasis",
+                "What can I do for chronic cholestasis?"
+            ],
+            "responses": [
+                "The diagnosis is Chronic Cholestasis. For chronic cholestasis, ursodeoxycholic acid is used to improve bile flow, and vitamin supplements help address nutritional deficiencies."
+            ]
+        },
+        {
+            "tag": "chronic_cholestasis",
+            "patterns": [
+                "itching, vomiting, yellowish skin, nausea, abdominal pain, yellowing of eyes",
+                "I have symptoms related to chronic cholestasis",
+                "I think I have chronic cholestasis",
+                "My symptoms point to chronic cholestasis",
+                "What can I do for chronic cholestasis?"
+            ],
+            "responses": [
+                "The diagnosis is Chronic Cholestasis. For chronic cholestasis, ursodeoxycholic acid is used to improve bile flow, and vitamin supplements help address nutritional deficiencies."
+            ]
+        },
+        {
+            "tag": "chronic_cholestasis",
+            "patterns": [
+                "itching, vomiting, yellowish skin, nausea, loss of appetite, yellowing of eyes",
+                "I have symptoms related to chronic cholestasis",
+                "I think I have chronic cholestasis",
+                "My symptoms point to chronic cholestasis",
+                "What can I do for chronic cholestasis?"
+            ],
+            "responses": [
+                "The diagnosis is Chronic Cholestasis. For chronic cholestasis, ursodeoxycholic acid is used to improve bile flow, and vitamin supplements help address nutritional deficiencies."
+            ]
+        },
+        {
+            "tag": "chronic_cholestasis",
+            "patterns": [
+                "itching, vomiting, yellowish skin, nausea, loss of appetite, abdominal pain",
+                "I have symptoms related to chronic cholestasis",
+                "I think I have chronic cholestasis",
+                "My symptoms point to chronic cholestasis",
+                "What can I do for chronic cholestasis?"
+            ],
+            "responses": [
+                "The diagnosis is Chronic Cholestasis. For chronic cholestasis, ursodeoxycholic acid is used to improve bile flow, and vitamin supplements help address nutritional deficiencies."
+            ]
+        },
+        {
+            "tag": "drug_reaction",
+            "patterns": [
+                "itching, skin rash, stomach pain, burning micturition, spotting  urination",
+                "I have symptoms related to drug reaction",
+                "I think I have drug reaction",
+                "My symptoms point to drug reaction",
+                "What can I do for drug reaction?"
+            ],
+            "responses": [
+                "The diagnosis is Drug Reaction. If you're experiencing a drug reaction, stopping the medication is key. Doctors may prescribe corticosteroids or antihistamines to help with symptoms."
+            ]
+        },
+        {
+            "tag": "drug_reaction",
+            "patterns": [
+                "itching, stomach pain, burning micturition, spotting  urination",
+                "I have symptoms related to drug reaction",
+                "I think I have drug reaction",
+                "My symptoms point to drug reaction",
+                "What can I do for drug reaction?"
+            ],
+            "responses": [
+                "The diagnosis is Drug Reaction. If you're experiencing a drug reaction, stopping the medication is key. Doctors may prescribe corticosteroids or antihistamines to help with symptoms."
+            ]
+        },
+        {
+            "tag": "drug_reaction",
+            "patterns": [
+                "itching, skin rash, burning micturition, spotting  urination",
+                "I have symptoms related to drug reaction",
+                "I think I have drug reaction",
+                "My symptoms point to drug reaction",
+                "What can I do for drug reaction?"
+            ],
+            "responses": [
+                "The diagnosis is Drug Reaction. If you're experiencing a drug reaction, stopping the medication is key. Doctors may prescribe corticosteroids or antihistamines to help with symptoms."
+            ]
+        },
+        {
+            "tag": "drug_reaction",
+            "patterns": [
+                "itching, skin rash, stomach pain, spotting  urination",
+                "I have symptoms related to drug reaction",
+                "I think I have drug reaction",
+                "My symptoms point to drug reaction",
+                "What can I do for drug reaction?"
+            ],
+            "responses": [
+                "The diagnosis is Drug Reaction. If you're experiencing a drug reaction, stopping the medication is key. Doctors may prescribe corticosteroids or antihistamines to help with symptoms."
+            ]
+        },
+        {
+            "tag": "drug_reaction",
+            "patterns": [
+                "itching, skin rash, stomach pain, burning micturition",
+                "I have symptoms related to drug reaction",
+                "I think I have drug reaction",
+                "My symptoms point to drug reaction",
+                "What can I do for drug reaction?"
+            ],
+            "responses": [
+                "The diagnosis is Drug Reaction. If you're experiencing a drug reaction, stopping the medication is key. Doctors may prescribe corticosteroids or antihistamines to help with symptoms."
+            ]
+        },
+        {
+            "tag": "drug_reaction",
+            "patterns": [
+                "skin rash, stomach pain, burning micturition, spotting  urination",
+                "I have symptoms related to drug reaction",
+                "I think I have drug reaction",
+                "My symptoms point to drug reaction",
+                "What can I do for drug reaction?"
+            ],
+            "responses": [
+                "The diagnosis is Drug Reaction. If you're experiencing a drug reaction, stopping the medication is key. Doctors may prescribe corticosteroids or antihistamines to help with symptoms."
+            ]
+        },
+        {
+            "tag": "peptic_ulcer_disease",
+            "patterns": [
+                "vomiting, loss of appetite, abdominal pain, passage of gases, internal itching",
+                "I have symptoms related to peptic ulcer disease",
+                "I think I have peptic ulcer disease",
+                "My symptoms point to peptic ulcer disease",
+                "What can I do for peptic ulcer disease?"
+            ],
+            "responses": [
+                "The diagnosis is Peptic Ulcer Disease. To treat a peptic ulcer, proton pump inhibitors like omeprazole reduce acid, and antibiotics might be prescribed if H. pylori bacteria are present."
+            ]
+        },
+        {
+            "tag": "peptic_ulcer_disease",
+            "patterns": [
+                "vomiting, indigestion, abdominal pain, passage of gases, internal itching",
+                "I have symptoms related to peptic ulcer disease",
+                "I think I have peptic ulcer disease",
+                "My symptoms point to peptic ulcer disease",
+                "What can I do for peptic ulcer disease?"
+            ],
+            "responses": [
+                "The diagnosis is Peptic Ulcer Disease. To treat a peptic ulcer, proton pump inhibitors like omeprazole reduce acid, and antibiotics might be prescribed if H. pylori bacteria are present."
+            ]
+        },
+        {
+            "tag": "peptic_ulcer_disease",
+            "patterns": [
+                "indigestion, loss of appetite, abdominal pain, passage of gases, internal itching",
+                "I have symptoms related to peptic ulcer disease",
+                "I think I have peptic ulcer disease",
+                "My symptoms point to peptic ulcer disease",
+                "What can I do for peptic ulcer disease?"
+            ],
+            "responses": [
+                "The diagnosis is Peptic Ulcer Disease. To treat a peptic ulcer, proton pump inhibitors like omeprazole reduce acid, and antibiotics might be prescribed if H. pylori bacteria are present."
+            ]
+        },
+        {
+            "tag": "peptic_ulcer_disease",
+            "patterns": [
+                "vomiting, indigestion, loss of appetite, passage of gases, internal itching",
+                "I have symptoms related to peptic ulcer disease",
+                "I think I have peptic ulcer disease",
+                "My symptoms point to peptic ulcer disease",
+                "What can I do for peptic ulcer disease?"
+            ],
+            "responses": [
+                "The diagnosis is Peptic Ulcer Disease. To treat a peptic ulcer, proton pump inhibitors like omeprazole reduce acid, and antibiotics might be prescribed if H. pylori bacteria are present."
+            ]
+        },
+        {
+            "tag": "peptic_ulcer_disease",
+            "patterns": [
+                "vomiting, indigestion, loss of appetite, abdominal pain, internal itching",
+                "I have symptoms related to peptic ulcer disease",
+                "I think I have peptic ulcer disease",
+                "My symptoms point to peptic ulcer disease",
+                "What can I do for peptic ulcer disease?"
+            ],
+            "responses": [
+                "The diagnosis is Peptic Ulcer Disease. To treat a peptic ulcer, proton pump inhibitors like omeprazole reduce acid, and antibiotics might be prescribed if H. pylori bacteria are present."
+            ]
+        },
+        {
+            "tag": "peptic_ulcer_disease",
+            "patterns": [
+                "vomiting, indigestion, loss of appetite, abdominal pain, passage of gases",
+                "I have symptoms related to peptic ulcer disease",
+                "I think I have peptic ulcer disease",
+                "My symptoms point to peptic ulcer disease",
+                "What can I do for peptic ulcer disease?"
+            ],
+            "responses": [
+                "The diagnosis is Peptic Ulcer Disease. To treat a peptic ulcer, proton pump inhibitors like omeprazole reduce acid, and antibiotics might be prescribed if H. pylori bacteria are present."
+            ]
+        },
+        {
+            "tag": "peptic_ulcer_disease",
+            "patterns": [
+                "vomiting, indigestion, loss of appetite, abdominal pain, passage of gases, internal itching",
+                "I have symptoms related to peptic ulcer disease",
+                "I think I have peptic ulcer disease",
+                "My symptoms point to peptic ulcer disease",
+                "What can I do for peptic ulcer disease?"
+            ],
+            "responses": [
+                "The diagnosis is Peptic Ulcer Disease. To treat a peptic ulcer, proton pump inhibitors like omeprazole reduce acid, and antibiotics might be prescribed if H. pylori bacteria are present."
+            ]
+        },
+        {
+            "tag": "aids",
+            "patterns": [
+                "muscle wasting, patches in throat, high fever, extra marital contacts",
+                "I have symptoms related to aids",
+                "I think I have aids",
+                "My symptoms point to aids",
+                "What can I do for aids?"
+            ],
+            "responses": [
+                "The diagnosis is AIDS. For managing AIDS, antiretroviral therapy, such as a combination of tenofovir and emtricitabine, is essential to control the virus."
+            ]
+        },
+        {
+            "tag": "aids",
+            "patterns": [
+                "patches in throat, high fever, extra marital contacts",
+                "I have symptoms related to aids",
+                "I think I have aids",
+                "My symptoms point to aids",
+                "What can I do for aids?"
+            ],
+            "responses": [
+                "The diagnosis is AIDS. For managing AIDS, antiretroviral therapy, such as a combination of tenofovir and emtricitabine, is essential to control the virus."
+            ]
+        },
+        {
+            "tag": "aids",
+            "patterns": [
+                "muscle wasting, high fever, extra marital contacts",
+                "I have symptoms related to aids",
+                "I think I have aids",
+                "My symptoms point to aids",
+                "What can I do for aids?"
+            ],
+            "responses": [
+                "The diagnosis is AIDS. For managing AIDS, antiretroviral therapy, such as a combination of tenofovir and emtricitabine, is essential to control the virus."
+            ]
+        },
+        {
+            "tag": "aids",
+            "patterns": [
+                "muscle wasting, patches in throat, extra marital contacts",
+                "I have symptoms related to aids",
+                "I think I have aids",
+                "My symptoms point to aids",
+                "What can I do for aids?"
+            ],
+            "responses": [
+                "The diagnosis is AIDS. For managing AIDS, antiretroviral therapy, such as a combination of tenofovir and emtricitabine, is essential to control the virus."
+            ]
+        },
+        {
+            "tag": "aids",
+            "patterns": [
+                "muscle wasting, patches in throat, high fever",
+                "I have symptoms related to aids",
+                "I think I have aids",
+                "My symptoms point to aids",
+                "What can I do for aids?"
+            ],
+            "responses": [
+                "The diagnosis is AIDS. For managing AIDS, antiretroviral therapy, such as a combination of tenofovir and emtricitabine, is essential to control the virus."
+            ]
+        },
+        {
+            "tag": "gastroenteritis",
+            "patterns": [
+                "vomiting, sunken eyes, dehydration, diarrhoea",
+                "I have symptoms related to gastroenteritis",
+                "I think I have gastroenteritis",
+                "My symptoms point to gastroenteritis",
+                "What can I do for gastroenteritis?"
+            ],
+            "responses": [
+                "The diagnosis is Gastroenteritis. To recover from gastroenteritis, staying hydrated with oral rehydration salts is crucial. Antidiarrheals or anti-nausea medication might also help."
+            ]
+        },
+        {
+            "tag": "gastroenteritis",
+            "patterns": [
+                "sunken eyes, dehydration, diarrhoea",
+                "I have symptoms related to gastroenteritis",
+                "I think I have gastroenteritis",
+                "My symptoms point to gastroenteritis",
+                "What can I do for gastroenteritis?"
+            ],
+            "responses": [
+                "The diagnosis is Gastroenteritis. To recover from gastroenteritis, staying hydrated with oral rehydration salts is crucial. Antidiarrheals or anti-nausea medication might also help."
+            ]
+        },
+        {
+            "tag": "gastroenteritis",
+            "patterns": [
+                "vomiting, dehydration, diarrhoea",
+                "I have symptoms related to gastroenteritis",
+                "I think I have gastroenteritis",
+                "My symptoms point to gastroenteritis",
+                "What can I do for gastroenteritis?"
+            ],
+            "responses": [
+                "The diagnosis is Gastroenteritis. To recover from gastroenteritis, staying hydrated with oral rehydration salts is crucial. Antidiarrheals or anti-nausea medication might also help."
+            ]
+        },
+        {
+            "tag": "gastroenteritis",
+            "patterns": [
+                "vomiting, sunken eyes, diarrhoea",
+                "I have symptoms related to gastroenteritis",
+                "I think I have gastroenteritis",
+                "My symptoms point to gastroenteritis",
+                "What can I do for gastroenteritis?"
+            ],
+            "responses": [
+                "The diagnosis is Gastroenteritis. To recover from gastroenteritis, staying hydrated with oral rehydration salts is crucial. Antidiarrheals or anti-nausea medication might also help."
+            ]
+        },
+        {
+            "tag": "gastroenteritis",
+            "patterns": [
+                "vomiting, sunken eyes, dehydration",
+                "I have symptoms related to gastroenteritis",
+                "I think I have gastroenteritis",
+                "My symptoms point to gastroenteritis",
+                "What can I do for gastroenteritis?"
+            ],
+            "responses": [
+                "The diagnosis is Gastroenteritis. To recover from gastroenteritis, staying hydrated with oral rehydration salts is crucial. Antidiarrheals or anti-nausea medication might also help."
+            ]
+        },
+        {
+            "tag": "bronchial_asthma",
+            "patterns": [
+                "fatigue, cough, high fever, breathlessness, family history, mucoid sputum",
+                "I have symptoms related to bronchial asthma",
+                "I think I have bronchial asthma",
+                "My symptoms point to bronchial asthma",
+                "What can I do for bronchial asthma?"
+            ],
+            "responses": [
+                "The diagnosis is Bronchial Asthma. For asthma, quick-relief inhalers like salbutamol open airways, and corticosteroids can reduce inflammation for better breathing."
+            ]
+        },
+        {
+            "tag": "bronchial_asthma",
+            "patterns": [
+                "cough, high fever, breathlessness, family history, mucoid sputum",
+                "I have symptoms related to bronchial asthma",
+                "I think I have bronchial asthma",
+                "My symptoms point to bronchial asthma",
+                "What can I do for bronchial asthma?"
+            ],
+            "responses": [
+                "The diagnosis is Bronchial Asthma. For asthma, quick-relief inhalers like salbutamol open airways, and corticosteroids can reduce inflammation for better breathing."
+            ]
+        },
+        {
+            "tag": "bronchial_asthma",
+            "patterns": [
+                "fatigue, high fever, breathlessness, family history, mucoid sputum",
+                "I have symptoms related to bronchial asthma",
+                "I think I have bronchial asthma",
+                "My symptoms point to bronchial asthma",
+                "What can I do for bronchial asthma?"
+            ],
+            "responses": [
+                "The diagnosis is Bronchial Asthma. For asthma, quick-relief inhalers like salbutamol open airways, and corticosteroids can reduce inflammation for better breathing."
+            ]
+        },
+        {
+            "tag": "bronchial_asthma",
+            "patterns": [
+                "fatigue, cough, breathlessness, family history, mucoid sputum",
+                "I have symptoms related to bronchial asthma",
+                "I think I have bronchial asthma",
+                "My symptoms point to bronchial asthma",
+                "What can I do for bronchial asthma?"
+            ],
+            "responses": [
+                "The diagnosis is Bronchial Asthma. For asthma, quick-relief inhalers like salbutamol open airways, and corticosteroids can reduce inflammation for better breathing."
+            ]
+        },
+        {
+            "tag": "bronchial_asthma",
+            "patterns": [
+                "fatigue, cough, high fever, family history, mucoid sputum",
+                "I have symptoms related to bronchial asthma",
+                "I think I have bronchial asthma",
+                "My symptoms point to bronchial asthma",
+                "What can I do for bronchial asthma?"
+            ],
+            "responses": [
+                "The diagnosis is Bronchial Asthma. For asthma, quick-relief inhalers like salbutamol open airways, and corticosteroids can reduce inflammation for better breathing."
+            ]
+        },
+        {
+            "tag": "bronchial_asthma",
+            "patterns": [
+                "fatigue, cough, high fever, breathlessness, mucoid sputum",
+                "I have symptoms related to bronchial asthma",
+                "I think I have bronchial asthma",
+                "My symptoms point to bronchial asthma",
+                "What can I do for bronchial asthma?"
+            ],
+            "responses": [
+                "The diagnosis is Bronchial Asthma. For asthma, quick-relief inhalers like salbutamol open airways, and corticosteroids can reduce inflammation for better breathing."
+            ]
+        },
+        {
+            "tag": "bronchial_asthma",
+            "patterns": [
+                "fatigue, cough, high fever, breathlessness, family history",
+                "I have symptoms related to bronchial asthma",
+                "I think I have bronchial asthma",
+                "My symptoms point to bronchial asthma",
+                "What can I do for bronchial asthma?"
+            ],
+            "responses": [
+                "The diagnosis is Bronchial Asthma. For asthma, quick-relief inhalers like salbutamol open airways, and corticosteroids can reduce inflammation for better breathing."
+            ]
+        },
+        {
+            "tag": "migraine",
+            "patterns": [
+                "acidity, indigestion, headache, blurred and distorted vision, excessive hunger, stiff neck, depression, irritability, visual disturbances",
+                "I have symptoms related to migraine",
+                "I think I have migraine",
+                "My symptoms point to migraine",
+                "What can I do for migraine?"
+            ],
+            "responses": [
+                "The diagnosis is Migraine. For migraines, triptans can help stop an attack, while beta-blockers are often used to prevent future ones."
+            ]
+        },
+        {
+            "tag": "migraine",
+            "patterns": [
+                "indigestion, headache, blurred and distorted vision, excessive hunger, stiff neck, depression, irritability, visual disturbances",
+                "I have symptoms related to migraine",
+                "I think I have migraine",
+                "My symptoms point to migraine",
+                "What can I do for migraine?"
+            ],
+            "responses": [
+                "The diagnosis is Migraine. For migraines, triptans can help stop an attack, while beta-blockers are often used to prevent future ones."
+            ]
+        },
+        {
+            "tag": "migraine",
+            "patterns": [
+                "acidity, headache, blurred and distorted vision, excessive hunger, stiff neck, depression, irritability, visual disturbances",
+                "I have symptoms related to migraine",
+                "I think I have migraine",
+                "My symptoms point to migraine",
+                "What can I do for migraine?"
+            ],
+            "responses": [
+                "The diagnosis is Migraine. For migraines, triptans can help stop an attack, while beta-blockers are often used to prevent future ones."
+            ]
+        },
+        {
+            "tag": "migraine",
+            "patterns": [
+                "acidity, indigestion, blurred and distorted vision, excessive hunger, stiff neck, depression, irritability, visual disturbances",
+                "I have symptoms related to migraine",
+                "I think I have migraine",
+                "My symptoms point to migraine",
+                "What can I do for migraine?"
+            ],
+            "responses": [
+                "The diagnosis is Migraine. For migraines, triptans can help stop an attack, while beta-blockers are often used to prevent future ones."
+            ]
+        },
+        {
+            "tag": "migraine",
+            "patterns": [
+                "acidity, indigestion, headache, excessive hunger, stiff neck, depression, irritability, visual disturbances",
+                "I have symptoms related to migraine",
+                "I think I have migraine",
+                "My symptoms point to migraine",
+                "What can I do for migraine?"
+            ],
+            "responses": [
+                "The diagnosis is Migraine. For migraines, triptans can help stop an attack, while beta-blockers are often used to prevent future ones."
+            ]
+        },
+        {
+            "tag": "migraine",
+            "patterns": [
+                "acidity, indigestion, headache, blurred and distorted vision, stiff neck, depression, irritability, visual disturbances",
+                "I have symptoms related to migraine",
+                "I think I have migraine",
+                "My symptoms point to migraine",
+                "What can I do for migraine?"
+            ],
+            "responses": [
+                "The diagnosis is Migraine. For migraines, triptans can help stop an attack, while beta-blockers are often used to prevent future ones."
+            ]
+        },
+        {
+            "tag": "migraine",
+            "patterns": [
+                "acidity, indigestion, headache, blurred and distorted vision, excessive hunger, depression, irritability, visual disturbances",
+                "I have symptoms related to migraine",
+                "I think I have migraine",
+                "My symptoms point to migraine",
+                "What can I do for migraine?"
+            ],
+            "responses": [
+                "The diagnosis is Migraine. For migraines, triptans can help stop an attack, while beta-blockers are often used to prevent future ones."
+            ]
+        },
+        {
+            "tag": "migraine",
+            "patterns": [
+                "acidity, indigestion, headache, blurred and distorted vision, excessive hunger, stiff neck, irritability, visual disturbances",
+                "I have symptoms related to migraine",
+                "I think I have migraine",
+                "My symptoms point to migraine",
+                "What can I do for migraine?"
+            ],
+            "responses": [
+                "The diagnosis is Migraine. For migraines, triptans can help stop an attack, while beta-blockers are often used to prevent future ones."
+            ]
+        },
+        {
+            "tag": "migraine",
+            "patterns": [
+                "acidity, indigestion, headache, blurred and distorted vision, excessive hunger, stiff neck, depression, visual disturbances",
+                "I have symptoms related to migraine",
+                "I think I have migraine",
+                "My symptoms point to migraine",
+                "What can I do for migraine?"
+            ],
+            "responses": [
+                "The diagnosis is Migraine. For migraines, triptans can help stop an attack, while beta-blockers are often used to prevent future ones."
+            ]
+        },
+        {
+            "tag": "migraine",
+            "patterns": [
+                "acidity, indigestion, headache, blurred and distorted vision, excessive hunger, stiff neck, depression, irritability",
+                "I have symptoms related to migraine",
+                "I think I have migraine",
+                "My symptoms point to migraine",
+                "What can I do for migraine?"
+            ],
+            "responses": [
+                "The diagnosis is Migraine. For migraines, triptans can help stop an attack, while beta-blockers are often used to prevent future ones."
+            ]
+        },
+        {
+            "tag": "cervical_spondylosis",
+            "patterns": [
+                "back pain, weakness in limbs, neck pain, dizziness, loss of balance",
+                "I have symptoms related to cervical spondylosis",
+                "I think I have cervical spondylosis",
+                "My symptoms point to cervical spondylosis",
+                "What can I do for cervical spondylosis?"
+            ],
+            "responses": [
+                "The diagnosis is Cervical Spondylosis. For neck pain from cervical spondylosis, NSAIDs can reduce pain, and physical therapy can improve mobility."
+            ]
+        },
+        {
+            "tag": "cervical_spondylosis",
+            "patterns": [
+                "weakness in limbs, neck pain, dizziness, loss of balance",
+                "I have symptoms related to cervical spondylosis",
+                "I think I have cervical spondylosis",
+                "My symptoms point to cervical spondylosis",
+                "What can I do for cervical spondylosis?"
+            ],
+            "responses": [
+                "The diagnosis is Cervical Spondylosis. For neck pain from cervical spondylosis, NSAIDs can reduce pain, and physical therapy can improve mobility."
+            ]
+        },
+        {
+            "tag": "cervical_spondylosis",
+            "patterns": [
+                "back pain, neck pain, dizziness, loss of balance",
+                "I have symptoms related to cervical spondylosis",
+                "I think I have cervical spondylosis",
+                "My symptoms point to cervical spondylosis",
+                "What can I do for cervical spondylosis?"
+            ],
+            "responses": [
+                "The diagnosis is Cervical Spondylosis. For neck pain from cervical spondylosis, NSAIDs can reduce pain, and physical therapy can improve mobility."
+            ]
+        },
+        {
+            "tag": "cervical_spondylosis",
+            "patterns": [
+                "back pain, weakness in limbs, dizziness, loss of balance",
+                "I have symptoms related to cervical spondylosis",
+                "I think I have cervical spondylosis",
+                "My symptoms point to cervical spondylosis",
+                "What can I do for cervical spondylosis?"
+            ],
+            "responses": [
+                "The diagnosis is Cervical Spondylosis. For neck pain from cervical spondylosis, NSAIDs can reduce pain, and physical therapy can improve mobility."
+            ]
+        },
+        {
+            "tag": "cervical_spondylosis",
+            "patterns": [
+                "back pain, weakness in limbs, neck pain, loss of balance",
+                "I have symptoms related to cervical spondylosis",
+                "I think I have cervical spondylosis",
+                "My symptoms point to cervical spondylosis",
+                "What can I do for cervical spondylosis?"
+            ],
+            "responses": [
+                "The diagnosis is Cervical Spondylosis. For neck pain from cervical spondylosis, NSAIDs can reduce pain, and physical therapy can improve mobility."
+            ]
+        },
+        {
+            "tag": "cervical_spondylosis",
+            "patterns": [
+                "back pain, weakness in limbs, neck pain, dizziness",
+                "I have symptoms related to cervical spondylosis",
+                "I think I have cervical spondylosis",
+                "My symptoms point to cervical spondylosis",
+                "What can I do for cervical spondylosis?"
+            ],
+            "responses": [
+                "The diagnosis is Cervical Spondylosis. For neck pain from cervical spondylosis, NSAIDs can reduce pain, and physical therapy can improve mobility."
+            ]
+        },
+        {
+            "tag": "paralysis_(brain_hemorrhage)",
+            "patterns": [
+                "vomiting, headache, weakness of one body side, altered sensorium",
+                "I have symptoms related to paralysis (brain hemorrhage)",
+                "I think I have paralysis (brain hemorrhage)",
+                "My symptoms point to paralysis (brain hemorrhage)",
+                "What can I do for paralysis (brain hemorrhage)?"
+            ],
+            "responses": [
+                "The diagnosis is Paralysis (brain hemorrhage). In cases of paralysis from a brain hemorrhage, rehabilitation therapy can help regain function, and antiplatelet drugs may prevent further issues."
+            ]
+        },
+        {
+            "tag": "paralysis_(brain_hemorrhage)",
+            "patterns": [
+                "headache, weakness of one body side, altered sensorium",
+                "I have symptoms related to paralysis (brain hemorrhage)",
+                "I think I have paralysis (brain hemorrhage)",
+                "My symptoms point to paralysis (brain hemorrhage)",
+                "What can I do for paralysis (brain hemorrhage)?"
+            ],
+            "responses": [
+                "The diagnosis is Paralysis (brain hemorrhage). In cases of paralysis from a brain hemorrhage, rehabilitation therapy can help regain function, and antiplatelet drugs may prevent further issues."
+            ]
+        },
+        {
+            "tag": "paralysis_(brain_hemorrhage)",
+            "patterns": [
+                "vomiting, weakness of one body side, altered sensorium",
+                "I have symptoms related to paralysis (brain hemorrhage)",
+                "I think I have paralysis (brain hemorrhage)",
+                "My symptoms point to paralysis (brain hemorrhage)",
+                "What can I do for paralysis (brain hemorrhage)?"
+            ],
+            "responses": [
+                "The diagnosis is Paralysis (brain hemorrhage). In cases of paralysis from a brain hemorrhage, rehabilitation therapy can help regain function, and antiplatelet drugs may prevent further issues."
+            ]
+        },
+        {
+            "tag": "paralysis_(brain_hemorrhage)",
+            "patterns": [
+                "vomiting, headache, altered sensorium",
+                "I have symptoms related to paralysis (brain hemorrhage)",
+                "I think I have paralysis (brain hemorrhage)",
+                "My symptoms point to paralysis (brain hemorrhage)",
+                "What can I do for paralysis (brain hemorrhage)?"
+            ],
+            "responses": [
+                "The diagnosis is Paralysis (brain hemorrhage). In cases of paralysis from a brain hemorrhage, rehabilitation therapy can help regain function, and antiplatelet drugs may prevent further issues."
+            ]
+        },
+        {
+            "tag": "paralysis_(brain_hemorrhage)",
+            "patterns": [
+                "vomiting, headache, weakness of one body side",
+                "I have symptoms related to paralysis (brain hemorrhage)",
+                "I think I have paralysis (brain hemorrhage)",
+                "My symptoms point to paralysis (brain hemorrhage)",
+                "What can I do for paralysis (brain hemorrhage)?"
+            ],
+            "responses": [
+                "The diagnosis is Paralysis (brain hemorrhage). In cases of paralysis from a brain hemorrhage, rehabilitation therapy can help regain function, and antiplatelet drugs may prevent further issues."
+            ]
+        },
+        {
+            "tag": "jaundice",
+            "patterns": [
+                "itching, vomiting, fatigue, weight loss, high fever, yellowish skin, dark urine, abdominal pain",
+                "I have symptoms related to jaundice",
+                "I think I have jaundice",
+                "My symptoms point to jaundice",
+                "What can I do for jaundice?"
+            ],
+            "responses": [
+                "The diagnosis is Jaundice. For jaundice, rest and plenty of fluids can help the liver heal. Avoiding alcohol and certain medications is also recommended."
+            ]
+        },
+        {
+            "tag": "jaundice",
+            "patterns": [
+                "vomiting, fatigue, weight loss, high fever, yellowish skin, dark urine, abdominal pain",
+                "I have symptoms related to jaundice",
+                "I think I have jaundice",
+                "My symptoms point to jaundice",
+                "What can I do for jaundice?"
+            ],
+            "responses": [
+                "The diagnosis is Jaundice. For jaundice, rest and plenty of fluids can help the liver heal. Avoiding alcohol and certain medications is also recommended."
+            ]
+        },
+        {
+            "tag": "jaundice",
+            "patterns": [
+                "itching, fatigue, weight loss, high fever, yellowish skin, dark urine, abdominal pain",
+                "I have symptoms related to jaundice",
+                "I think I have jaundice",
+                "My symptoms point to jaundice",
+                "What can I do for jaundice?"
+            ],
+            "responses": [
+                "The diagnosis is Jaundice. For jaundice, rest and plenty of fluids can help the liver heal. Avoiding alcohol and certain medications is also recommended."
+            ]
+        },
+        {
+            "tag": "jaundice",
+            "patterns": [
+                "itching, vomiting, weight loss, high fever, yellowish skin, dark urine, abdominal pain",
+                "I have symptoms related to jaundice",
+                "I think I have jaundice",
+                "My symptoms point to jaundice",
+                "What can I do for jaundice?"
+            ],
+            "responses": [
+                "The diagnosis is Jaundice. For jaundice, rest and plenty of fluids can help the liver heal. Avoiding alcohol and certain medications is also recommended."
+            ]
+        },
+        {
+            "tag": "jaundice",
+            "patterns": [
+                "itching, vomiting, fatigue, high fever, yellowish skin, dark urine, abdominal pain",
+                "I have symptoms related to jaundice",
+                "I think I have jaundice",
+                "My symptoms point to jaundice",
+                "What can I do for jaundice?"
+            ],
+            "responses": [
+                "The diagnosis is Jaundice. For jaundice, rest and plenty of fluids can help the liver heal. Avoiding alcohol and certain medications is also recommended."
+            ]
+        },
+        {
+            "tag": "jaundice",
+            "patterns": [
+                "itching, vomiting, fatigue, weight loss, yellowish skin, dark urine, abdominal pain",
+                "I have symptoms related to jaundice",
+                "I think I have jaundice",
+                "My symptoms point to jaundice",
+                "What can I do for jaundice?"
+            ],
+            "responses": [
+                "The diagnosis is Jaundice. For jaundice, rest and plenty of fluids can help the liver heal. Avoiding alcohol and certain medications is also recommended."
+            ]
+        },
+        {
+            "tag": "jaundice",
+            "patterns": [
+                "itching, vomiting, fatigue, weight loss, high fever, dark urine, abdominal pain",
+                "I have symptoms related to jaundice",
+                "I think I have jaundice",
+                "My symptoms point to jaundice",
+                "What can I do for jaundice?"
+            ],
+            "responses": [
+                "The diagnosis is Jaundice. For jaundice, rest and plenty of fluids can help the liver heal. Avoiding alcohol and certain medications is also recommended."
+            ]
+        },
+        {
+            "tag": "jaundice",
+            "patterns": [
+                "itching, vomiting, fatigue, weight loss, high fever, yellowish skin, abdominal pain",
+                "I have symptoms related to jaundice",
+                "I think I have jaundice",
+                "My symptoms point to jaundice",
+                "What can I do for jaundice?"
+            ],
+            "responses": [
+                "The diagnosis is Jaundice. For jaundice, rest and plenty of fluids can help the liver heal. Avoiding alcohol and certain medications is also recommended."
+            ]
+        },
+        {
+            "tag": "jaundice",
+            "patterns": [
+                "itching, vomiting, fatigue, weight loss, high fever, yellowish skin, dark urine",
+                "I have symptoms related to jaundice",
+                "I think I have jaundice",
+                "My symptoms point to jaundice",
+                "What can I do for jaundice?"
+            ],
+            "responses": [
+                "The diagnosis is Jaundice. For jaundice, rest and plenty of fluids can help the liver heal. Avoiding alcohol and certain medications is also recommended."
+            ]
+        },
+        {
+            "tag": "malaria",
+            "patterns": [
+                "chills, vomiting, high fever, sweating, headache, nausea, muscle pain",
+                "I have symptoms related to malaria",
+                "I think I have malaria",
+                "My symptoms point to malaria",
+                "What can I do for malaria?"
+            ],
+            "responses": [
+                "The diagnosis is Malaria. To treat malaria, antimalarial drugs like chloroquine or artemisinin are used to eliminate the parasite from your bloodstream."
+            ]
+        },
+        {
+            "tag": "malaria",
+            "patterns": [
+                "chills, vomiting, high fever, sweating, headache, nausea, diarrhoea, muscle pain",
+                "I have symptoms related to malaria",
+                "I think I have malaria",
+                "My symptoms point to malaria",
+                "What can I do for malaria?"
+            ],
+            "responses": [
+                "The diagnosis is Malaria. To treat malaria, antimalarial drugs like chloroquine or artemisinin are used to eliminate the parasite from your bloodstream."
+            ]
+        },
+        {
+            "tag": "malaria",
+            "patterns": [
+                "vomiting, high fever, sweating, headache, nausea, diarrhoea, muscle pain",
+                "I have symptoms related to malaria",
+                "I think I have malaria",
+                "My symptoms point to malaria",
+                "What can I do for malaria?"
+            ],
+            "responses": [
+                "The diagnosis is Malaria. To treat malaria, antimalarial drugs like chloroquine or artemisinin are used to eliminate the parasite from your bloodstream."
+            ]
+        },
+        {
+            "tag": "malaria",
+            "patterns": [
+                "chills, high fever, sweating, headache, nausea, diarrhoea, muscle pain",
+                "I have symptoms related to malaria",
+                "I think I have malaria",
+                "My symptoms point to malaria",
+                "What can I do for malaria?"
+            ],
+            "responses": [
+                "The diagnosis is Malaria. To treat malaria, antimalarial drugs like chloroquine or artemisinin are used to eliminate the parasite from your bloodstream."
+            ]
+        },
+        {
+            "tag": "malaria",
+            "patterns": [
+                "chills, vomiting, sweating, headache, nausea, diarrhoea, muscle pain",
+                "I have symptoms related to malaria",
+                "I think I have malaria",
+                "My symptoms point to malaria",
+                "What can I do for malaria?"
+            ],
+            "responses": [
+                "The diagnosis is Malaria. To treat malaria, antimalarial drugs like chloroquine or artemisinin are used to eliminate the parasite from your bloodstream."
+            ]
+        },
+        {
+            "tag": "malaria",
+            "patterns": [
+                "chills, vomiting, high fever, headache, nausea, diarrhoea, muscle pain",
+                "I have symptoms related to malaria",
+                "I think I have malaria",
+                "My symptoms point to malaria",
+                "What can I do for malaria?"
+            ],
+            "responses": [
+                "The diagnosis is Malaria. To treat malaria, antimalarial drugs like chloroquine or artemisinin are used to eliminate the parasite from your bloodstream."
+            ]
+        },
+        {
+            "tag": "malaria",
+            "patterns": [
+                "chills, vomiting, high fever, sweating, nausea, diarrhoea, muscle pain",
+                "I have symptoms related to malaria",
+                "I think I have malaria",
+                "My symptoms point to malaria",
+                "What can I do for malaria?"
+            ],
+            "responses": [
+                "The diagnosis is Malaria. To treat malaria, antimalarial drugs like chloroquine or artemisinin are used to eliminate the parasite from your bloodstream."
+            ]
+        },
+        {
+            "tag": "malaria",
+            "patterns": [
+                "chills, vomiting, high fever, sweating, headache, diarrhoea, muscle pain",
+                "I have symptoms related to malaria",
+                "I think I have malaria",
+                "My symptoms point to malaria",
+                "What can I do for malaria?"
+            ],
+            "responses": [
+                "The diagnosis is Malaria. To treat malaria, antimalarial drugs like chloroquine or artemisinin are used to eliminate the parasite from your bloodstream."
+            ]
+        },
+        {
+            "tag": "dengue",
+            "patterns": [
+                "skin rash, chills, joint pain, vomiting, fatigue, high fever, headache, nausea, loss of appetite, pain behind the eyes, back pain, muscle pain, red spots over body",
+                "I have symptoms related to dengue",
+                "I think I have dengue",
+                "My symptoms point to dengue",
+                "What can I do for dengue?"
+            ],
+            "responses": [
+                "The diagnosis is Dengue. For dengue, it's important to stay hydrated and manage fever with medications like paracetamol. Rest is essential for recovery."
+            ]
+        },
+        {
+            "tag": "dengue",
+            "patterns": [
+                "skin rash, chills, joint pain, vomiting, fatigue, high fever, headache, nausea, loss of appetite, pain behind the eyes, back pain, malaise, red spots over body",
+                "I have symptoms related to dengue",
+                "I think I have dengue",
+                "My symptoms point to dengue",
+                "What can I do for dengue?"
+            ],
+            "responses": [
+                "The diagnosis is Dengue. For dengue, it's important to stay hydrated and manage fever with medications like paracetamol. Rest is essential for recovery."
+            ]
+        },
+        {
+            "tag": "dengue",
+            "patterns": [
+                "skin rash, chills, joint pain, vomiting, fatigue, high fever, headache, nausea, loss of appetite, pain behind the eyes, back pain, malaise, muscle pain",
+                "I have symptoms related to dengue",
+                "I think I have dengue",
+                "My symptoms point to dengue",
+                "What can I do for dengue?"
+            ],
+            "responses": [
+                "The diagnosis is Dengue. For dengue, it's important to stay hydrated and manage fever with medications like paracetamol. Rest is essential for recovery."
+            ]
+        },
+        {
+            "tag": "dengue",
+            "patterns": [
+                "skin rash, chills, joint pain, vomiting, fatigue, high fever, headache, nausea, loss of appetite, pain behind the eyes, back pain, malaise, muscle pain, red spots over body",
+                "I have symptoms related to dengue",
+                "I think I have dengue",
+                "My symptoms point to dengue",
+                "What can I do for dengue?"
+            ],
+            "responses": [
+                "The diagnosis is Dengue. For dengue, it's important to stay hydrated and manage fever with medications like paracetamol. Rest is essential for recovery."
+            ]
+        },
+        {
+            "tag": "dengue",
+            "patterns": [
+                "chills, joint pain, vomiting, fatigue, high fever, headache, nausea, loss of appetite, pain behind the eyes, back pain, malaise, muscle pain, red spots over body",
+                "I have symptoms related to dengue",
+                "I think I have dengue",
+                "My symptoms point to dengue",
+                "What can I do for dengue?"
+            ],
+            "responses": [
+                "The diagnosis is Dengue. For dengue, it's important to stay hydrated and manage fever with medications like paracetamol. Rest is essential for recovery."
+            ]
+        },
+        {
+            "tag": "dengue",
+            "patterns": [
+                "skin rash, joint pain, vomiting, fatigue, high fever, headache, nausea, loss of appetite, pain behind the eyes, back pain, malaise, muscle pain, red spots over body",
+                "I have symptoms related to dengue",
+                "I think I have dengue",
+                "My symptoms point to dengue",
+                "What can I do for dengue?"
+            ],
+            "responses": [
+                "The diagnosis is Dengue. For dengue, it's important to stay hydrated and manage fever with medications like paracetamol. Rest is essential for recovery."
+            ]
+        },
+        {
+            "tag": "dengue",
+            "patterns": [
+                "skin rash, chills, vomiting, fatigue, high fever, headache, nausea, loss of appetite, pain behind the eyes, back pain, malaise, muscle pain, red spots over body",
+                "I have symptoms related to dengue",
+                "I think I have dengue",
+                "My symptoms point to dengue",
+                "What can I do for dengue?"
+            ],
+            "responses": [
+                "The diagnosis is Dengue. For dengue, it's important to stay hydrated and manage fever with medications like paracetamol. Rest is essential for recovery."
+            ]
+        },
+        {
+            "tag": "dengue",
+            "patterns": [
+                "skin rash, chills, joint pain, fatigue, high fever, headache, nausea, loss of appetite, pain behind the eyes, back pain, malaise, muscle pain, red spots over body",
+                "I have symptoms related to dengue",
+                "I think I have dengue",
+                "My symptoms point to dengue",
+                "What can I do for dengue?"
+            ],
+            "responses": [
+                "The diagnosis is Dengue. For dengue, it's important to stay hydrated and manage fever with medications like paracetamol. Rest is essential for recovery."
+            ]
+        },
+        {
+            "tag": "dengue",
+            "patterns": [
+                "skin rash, chills, joint pain, vomiting, high fever, headache, nausea, loss of appetite, pain behind the eyes, back pain, malaise, muscle pain, red spots over body",
+                "I have symptoms related to dengue",
+                "I think I have dengue",
+                "My symptoms point to dengue",
+                "What can I do for dengue?"
+            ],
+            "responses": [
+                "The diagnosis is Dengue. For dengue, it's important to stay hydrated and manage fever with medications like paracetamol. Rest is essential for recovery."
+            ]
+        },
+        {
+            "tag": "dengue",
+            "patterns": [
+                "skin rash, chills, joint pain, vomiting, fatigue, headache, nausea, loss of appetite, pain behind the eyes, back pain, malaise, muscle pain, red spots over body",
+                "I have symptoms related to dengue",
+                "I think I have dengue",
+                "My symptoms point to dengue",
+                "What can I do for dengue?"
+            ],
+            "responses": [
+                "The diagnosis is Dengue. For dengue, it's important to stay hydrated and manage fever with medications like paracetamol. Rest is essential for recovery."
+            ]
+        },
+        {
+            "tag": "typhoid",
+            "patterns": [
+                "chills, vomiting, fatigue, high fever, nausea, constipation, abdominal pain, diarrhoea, toxic look (typhos), belly pain",
+                "I have symptoms related to typhoid",
+                "I think I have typhoid",
+                "My symptoms point to typhoid",
+                "What can I do for typhoid?"
+            ],
+            "responses": [
+                "The diagnosis is Typhoid. Antibiotics like ciprofloxacin or ceftriaxone are used to treat typhoid fever and eliminate the bacteria causing it."
+            ]
+        },
+        {
+            "tag": "typhoid",
+            "patterns": [
+                "chills, vomiting, fatigue, high fever, headache, constipation, abdominal pain, diarrhoea, toxic look (typhos), belly pain",
+                "I have symptoms related to typhoid",
+                "I think I have typhoid",
+                "My symptoms point to typhoid",
+                "What can I do for typhoid?"
+            ],
+            "responses": [
+                "The diagnosis is Typhoid. Antibiotics like ciprofloxacin or ceftriaxone are used to treat typhoid fever and eliminate the bacteria causing it."
+            ]
+        },
+        {
+            "tag": "typhoid",
+            "patterns": [
+                "chills, vomiting, fatigue, high fever, headache, nausea, abdominal pain, diarrhoea, toxic look (typhos), belly pain",
+                "I have symptoms related to typhoid",
+                "I think I have typhoid",
+                "My symptoms point to typhoid",
+                "What can I do for typhoid?"
+            ],
+            "responses": [
+                "The diagnosis is Typhoid. Antibiotics like ciprofloxacin or ceftriaxone are used to treat typhoid fever and eliminate the bacteria causing it."
+            ]
+        },
+        {
+            "tag": "typhoid",
+            "patterns": [
+                "chills, vomiting, fatigue, high fever, headache, nausea, constipation, diarrhoea, toxic look (typhos), belly pain",
+                "I have symptoms related to typhoid",
+                "I think I have typhoid",
+                "My symptoms point to typhoid",
+                "What can I do for typhoid?"
+            ],
+            "responses": [
+                "The diagnosis is Typhoid. Antibiotics like ciprofloxacin or ceftriaxone are used to treat typhoid fever and eliminate the bacteria causing it."
+            ]
+        },
+        {
+            "tag": "typhoid",
+            "patterns": [
+                "chills, vomiting, fatigue, high fever, headache, nausea, constipation, abdominal pain, toxic look (typhos), belly pain",
+                "I have symptoms related to typhoid",
+                "I think I have typhoid",
+                "My symptoms point to typhoid",
+                "What can I do for typhoid?"
+            ],
+            "responses": [
+                "The diagnosis is Typhoid. Antibiotics like ciprofloxacin or ceftriaxone are used to treat typhoid fever and eliminate the bacteria causing it."
+            ]
+        },
+        {
+            "tag": "typhoid",
+            "patterns": [
+                "chills, vomiting, fatigue, high fever, headache, nausea, constipation, abdominal pain, diarrhoea, belly pain",
+                "I have symptoms related to typhoid",
+                "I think I have typhoid",
+                "My symptoms point to typhoid",
+                "What can I do for typhoid?"
+            ],
+            "responses": [
+                "The diagnosis is Typhoid. Antibiotics like ciprofloxacin or ceftriaxone are used to treat typhoid fever and eliminate the bacteria causing it."
+            ]
+        },
+        {
+            "tag": "typhoid",
+            "patterns": [
+                "chills, vomiting, fatigue, high fever, headache, nausea, constipation, abdominal pain, diarrhoea, toxic look (typhos)",
+                "I have symptoms related to typhoid",
+                "I think I have typhoid",
+                "My symptoms point to typhoid",
+                "What can I do for typhoid?"
+            ],
+            "responses": [
+                "The diagnosis is Typhoid. Antibiotics like ciprofloxacin or ceftriaxone are used to treat typhoid fever and eliminate the bacteria causing it."
+            ]
+        },
+        {
+            "tag": "typhoid",
+            "patterns": [
+                "chills, vomiting, fatigue, high fever, headache, nausea, constipation, abdominal pain, diarrhoea, toxic look (typhos), belly pain",
+                "I have symptoms related to typhoid",
+                "I think I have typhoid",
+                "My symptoms point to typhoid",
+                "What can I do for typhoid?"
+            ],
+            "responses": [
+                "The diagnosis is Typhoid. Antibiotics like ciprofloxacin or ceftriaxone are used to treat typhoid fever and eliminate the bacteria causing it."
+            ]
+        },
+        {
+            "tag": "typhoid",
+            "patterns": [
+                "chills, fatigue, high fever, headache, nausea, constipation, abdominal pain, diarrhoea, toxic look (typhos), belly pain",
+                "I have symptoms related to typhoid",
+                "I think I have typhoid",
+                "My symptoms point to typhoid",
+                "What can I do for typhoid?"
+            ],
+            "responses": [
+                "The diagnosis is Typhoid. Antibiotics like ciprofloxacin or ceftriaxone are used to treat typhoid fever and eliminate the bacteria causing it."
+            ]
+        },
+        {
+            "tag": "hepatitis_a",
+            "patterns": [
+                "joint pain, vomiting, yellowish skin, dark urine, nausea, loss of appetite, abdominal pain, diarrhoea, mild fever, yellowing of eyes, muscle pain",
+                "I have symptoms related to hepatitis a",
+                "I think I have hepatitis a",
+                "My symptoms point to hepatitis a",
+                "What can I do for hepatitis a?"
+            ],
+            "responses": [
+                "The diagnosis is Hepatitis A. Hepatitis A typically requires rest and plenty of fluids. Your body will clear the virus on its own over time."
+            ]
+        },
+        {
+            "tag": "hepatitis_a",
+            "patterns": [
+                "vomiting, yellowish skin, dark urine, nausea, loss of appetite, abdominal pain, diarrhoea, mild fever, yellowing of eyes, muscle pain",
+                "I have symptoms related to hepatitis a",
+                "I think I have hepatitis a",
+                "My symptoms point to hepatitis a",
+                "What can I do for hepatitis a?"
+            ],
+            "responses": [
+                "The diagnosis is Hepatitis A. Hepatitis A typically requires rest and plenty of fluids. Your body will clear the virus on its own over time."
+            ]
+        },
+        {
+            "tag": "hepatitis_a",
+            "patterns": [
+                "joint pain, yellowish skin, dark urine, nausea, loss of appetite, abdominal pain, diarrhoea, mild fever, yellowing of eyes, muscle pain",
+                "I have symptoms related to hepatitis a",
+                "I think I have hepatitis a",
+                "My symptoms point to hepatitis a",
+                "What can I do for hepatitis a?"
+            ],
+            "responses": [
+                "The diagnosis is Hepatitis A. Hepatitis A typically requires rest and plenty of fluids. Your body will clear the virus on its own over time."
+            ]
+        },
+        {
+            "tag": "hepatitis_a",
+            "patterns": [
+                "joint pain, vomiting, dark urine, nausea, loss of appetite, abdominal pain, diarrhoea, mild fever, yellowing of eyes, muscle pain",
+                "I have symptoms related to hepatitis a",
+                "I think I have hepatitis a",
+                "My symptoms point to hepatitis a",
+                "What can I do for hepatitis a?"
+            ],
+            "responses": [
+                "The diagnosis is Hepatitis A. Hepatitis A typically requires rest and plenty of fluids. Your body will clear the virus on its own over time."
+            ]
+        },
+        {
+            "tag": "hepatitis_a",
+            "patterns": [
+                "joint pain, vomiting, yellowish skin, nausea, loss of appetite, abdominal pain, diarrhoea, mild fever, yellowing of eyes, muscle pain",
+                "I have symptoms related to hepatitis a",
+                "I think I have hepatitis a",
+                "My symptoms point to hepatitis a",
+                "What can I do for hepatitis a?"
+            ],
+            "responses": [
+                "The diagnosis is Hepatitis A. Hepatitis A typically requires rest and plenty of fluids. Your body will clear the virus on its own over time."
+            ]
+        },
+        {
+            "tag": "hepatitis_a",
+            "patterns": [
+                "joint pain, vomiting, yellowish skin, dark urine, loss of appetite, abdominal pain, diarrhoea, mild fever, yellowing of eyes, muscle pain",
+                "I have symptoms related to hepatitis a",
+                "I think I have hepatitis a",
+                "My symptoms point to hepatitis a",
+                "What can I do for hepatitis a?"
+            ],
+            "responses": [
+                "The diagnosis is Hepatitis A. Hepatitis A typically requires rest and plenty of fluids. Your body will clear the virus on its own over time."
+            ]
+        },
+        {
+            "tag": "hepatitis_a",
+            "patterns": [
+                "joint pain, vomiting, yellowish skin, dark urine, nausea, abdominal pain, diarrhoea, mild fever, yellowing of eyes, muscle pain",
+                "I have symptoms related to hepatitis a",
+                "I think I have hepatitis a",
+                "My symptoms point to hepatitis a",
+                "What can I do for hepatitis a?"
+            ],
+            "responses": [
+                "The diagnosis is Hepatitis A. Hepatitis A typically requires rest and plenty of fluids. Your body will clear the virus on its own over time."
+            ]
+        },
+        {
+            "tag": "hepatitis_a",
+            "patterns": [
+                "joint pain, vomiting, yellowish skin, dark urine, nausea, loss of appetite, diarrhoea, mild fever, yellowing of eyes, muscle pain",
+                "I have symptoms related to hepatitis a",
+                "I think I have hepatitis a",
+                "My symptoms point to hepatitis a",
+                "What can I do for hepatitis a?"
+            ],
+            "responses": [
+                "The diagnosis is Hepatitis A. Hepatitis A typically requires rest and plenty of fluids. Your body will clear the virus on its own over time."
+            ]
+        },
+        {
+            "tag": "hepatitis_a",
+            "patterns": [
+                "joint pain, vomiting, yellowish skin, dark urine, nausea, loss of appetite, abdominal pain, mild fever, yellowing of eyes, muscle pain",
+                "I have symptoms related to hepatitis a",
+                "I think I have hepatitis a",
+                "My symptoms point to hepatitis a",
+                "What can I do for hepatitis a?"
+            ],
+            "responses": [
+                "The diagnosis is Hepatitis A. Hepatitis A typically requires rest and plenty of fluids. Your body will clear the virus on its own over time."
+            ]
+        },
+        {
+            "tag": "hepatitis_b",
+            "patterns": [
+                "itching, fatigue, lethargy, yellowish skin, dark urine, loss of appetite, abdominal pain, yellow urine, yellowing of eyes, malaise, receiving blood transfusion, receiving unsterile injections",
+                "I have symptoms related to hepatitis b",
+                "I think I have hepatitis b",
+                "My symptoms point to hepatitis b",
+                "What can I do for hepatitis b?"
+            ],
+            "responses": [
+                "The diagnosis is Hepatitis B. For chronic Hepatitis B, antiviral medications like tenofovir can suppress the virus and protect the liver."
+            ]
+        },
+        {
+            "tag": "hepatitis_b",
+            "patterns": [
+                "fatigue, lethargy, yellowish skin, dark urine, loss of appetite, abdominal pain, yellow urine, yellowing of eyes, malaise, receiving blood transfusion, receiving unsterile injections",
+                "I have symptoms related to hepatitis b",
+                "I think I have hepatitis b",
+                "My symptoms point to hepatitis b",
+                "What can I do for hepatitis b?"
+            ],
+            "responses": [
+                "The diagnosis is Hepatitis B. For chronic Hepatitis B, antiviral medications like tenofovir can suppress the virus and protect the liver."
+            ]
+        },
+        {
+            "tag": "hepatitis_b",
+            "patterns": [
+                "itching, lethargy, yellowish skin, dark urine, loss of appetite, abdominal pain, yellow urine, yellowing of eyes, malaise, receiving blood transfusion, receiving unsterile injections",
+                "I have symptoms related to hepatitis b",
+                "I think I have hepatitis b",
+                "My symptoms point to hepatitis b",
+                "What can I do for hepatitis b?"
+            ],
+            "responses": [
+                "The diagnosis is Hepatitis B. For chronic Hepatitis B, antiviral medications like tenofovir can suppress the virus and protect the liver."
+            ]
+        },
+        {
+            "tag": "hepatitis_b",
+            "patterns": [
+                "itching, fatigue, yellowish skin, dark urine, loss of appetite, abdominal pain, yellow urine, yellowing of eyes, malaise, receiving blood transfusion, receiving unsterile injections",
+                "I have symptoms related to hepatitis b",
+                "I think I have hepatitis b",
+                "My symptoms point to hepatitis b",
+                "What can I do for hepatitis b?"
+            ],
+            "responses": [
+                "The diagnosis is Hepatitis B. For chronic Hepatitis B, antiviral medications like tenofovir can suppress the virus and protect the liver."
+            ]
+        },
+        {
+            "tag": "hepatitis_b",
+            "patterns": [
+                "itching, fatigue, lethargy, dark urine, loss of appetite, abdominal pain, yellow urine, yellowing of eyes, malaise, receiving blood transfusion, receiving unsterile injections",
+                "I have symptoms related to hepatitis b",
+                "I think I have hepatitis b",
+                "My symptoms point to hepatitis b",
+                "What can I do for hepatitis b?"
+            ],
+            "responses": [
+                "The diagnosis is Hepatitis B. For chronic Hepatitis B, antiviral medications like tenofovir can suppress the virus and protect the liver."
+            ]
+        },
+        {
+            "tag": "hepatitis_b",
+            "patterns": [
+                "itching, fatigue, lethargy, yellowish skin, loss of appetite, abdominal pain, yellow urine, yellowing of eyes, malaise, receiving blood transfusion, receiving unsterile injections",
+                "I have symptoms related to hepatitis b",
+                "I think I have hepatitis b",
+                "My symptoms point to hepatitis b",
+                "What can I do for hepatitis b?"
+            ],
+            "responses": [
+                "The diagnosis is Hepatitis B. For chronic Hepatitis B, antiviral medications like tenofovir can suppress the virus and protect the liver."
+            ]
+        },
+        {
+            "tag": "hepatitis_b",
+            "patterns": [
+                "itching, fatigue, lethargy, yellowish skin, dark urine, abdominal pain, yellow urine, yellowing of eyes, malaise, receiving blood transfusion, receiving unsterile injections",
+                "I have symptoms related to hepatitis b",
+                "I think I have hepatitis b",
+                "My symptoms point to hepatitis b",
+                "What can I do for hepatitis b?"
+            ],
+            "responses": [
+                "The diagnosis is Hepatitis B. For chronic Hepatitis B, antiviral medications like tenofovir can suppress the virus and protect the liver."
+            ]
+        },
+        {
+            "tag": "hepatitis_b",
+            "patterns": [
+                "itching, fatigue, lethargy, yellowish skin, dark urine, loss of appetite, yellow urine, yellowing of eyes, malaise, receiving blood transfusion, receiving unsterile injections",
+                "I have symptoms related to hepatitis b",
+                "I think I have hepatitis b",
+                "My symptoms point to hepatitis b",
+                "What can I do for hepatitis b?"
+            ],
+            "responses": [
+                "The diagnosis is Hepatitis B. For chronic Hepatitis B, antiviral medications like tenofovir can suppress the virus and protect the liver."
+            ]
+        },
+        {
+            "tag": "hepatitis_b",
+            "patterns": [
+                "itching, fatigue, lethargy, yellowish skin, dark urine, loss of appetite, abdominal pain, yellowing of eyes, malaise, receiving blood transfusion, receiving unsterile injections",
+                "I have symptoms related to hepatitis b",
+                "I think I have hepatitis b",
+                "My symptoms point to hepatitis b",
+                "What can I do for hepatitis b?"
+            ],
+            "responses": [
+                "The diagnosis is Hepatitis B. For chronic Hepatitis B, antiviral medications like tenofovir can suppress the virus and protect the liver."
+            ]
+        },
+        {
+            "tag": "hepatitis_c",
+            "patterns": [
+                "fatigue, yellowish skin, nausea, loss of appetite, family history",
+                "I have symptoms related to hepatitis c",
+                "I think I have hepatitis c",
+                "My symptoms point to hepatitis c",
+                "What can I do for hepatitis c?"
+            ],
+            "responses": [
+                "The diagnosis is Hepatitis C. Direct-acting antivirals, like sofosbuvir, are used to cure Hepatitis C by targeting the virus directly."
+            ]
+        },
+        {
+            "tag": "hepatitis_c",
+            "patterns": [
+                "fatigue, yellowish skin, nausea, loss of appetite, yellowing of eyes, family history",
+                "I have symptoms related to hepatitis c",
+                "I think I have hepatitis c",
+                "My symptoms point to hepatitis c",
+                "What can I do for hepatitis c?"
+            ],
+            "responses": [
+                "The diagnosis is Hepatitis C. Direct-acting antivirals, like sofosbuvir, are used to cure Hepatitis C by targeting the virus directly."
+            ]
+        },
+        {
+            "tag": "hepatitis_c",
+            "patterns": [
+                "yellowish skin, nausea, loss of appetite, yellowing of eyes, family history",
+                "I have symptoms related to hepatitis c",
+                "I think I have hepatitis c",
+                "My symptoms point to hepatitis c",
+                "What can I do for hepatitis c?"
+            ],
+            "responses": [
+                "The diagnosis is Hepatitis C. Direct-acting antivirals, like sofosbuvir, are used to cure Hepatitis C by targeting the virus directly."
+            ]
+        },
+        {
+            "tag": "hepatitis_c",
+            "patterns": [
+                "fatigue, nausea, loss of appetite, yellowing of eyes, family history",
+                "I have symptoms related to hepatitis c",
+                "I think I have hepatitis c",
+                "My symptoms point to hepatitis c",
+                "What can I do for hepatitis c?"
+            ],
+            "responses": [
+                "The diagnosis is Hepatitis C. Direct-acting antivirals, like sofosbuvir, are used to cure Hepatitis C by targeting the virus directly."
+            ]
+        },
+        {
+            "tag": "hepatitis_c",
+            "patterns": [
+                "fatigue, yellowish skin, loss of appetite, yellowing of eyes, family history",
+                "I have symptoms related to hepatitis c",
+                "I think I have hepatitis c",
+                "My symptoms point to hepatitis c",
+                "What can I do for hepatitis c?"
+            ],
+            "responses": [
+                "The diagnosis is Hepatitis C. Direct-acting antivirals, like sofosbuvir, are used to cure Hepatitis C by targeting the virus directly."
+            ]
+        },
+        {
+            "tag": "hepatitis_c",
+            "patterns": [
+                "fatigue, yellowish skin, nausea, yellowing of eyes, family history",
+                "I have symptoms related to hepatitis c",
+                "I think I have hepatitis c",
+                "My symptoms point to hepatitis c",
+                "What can I do for hepatitis c?"
+            ],
+            "responses": [
+                "The diagnosis is Hepatitis C. Direct-acting antivirals, like sofosbuvir, are used to cure Hepatitis C by targeting the virus directly."
+            ]
+        },
+        {
+            "tag": "hepatitis_c",
+            "patterns": [
+                "fatigue, yellowish skin, nausea, loss of appetite, yellowing of eyes",
+                "I have symptoms related to hepatitis c",
+                "I think I have hepatitis c",
+                "My symptoms point to hepatitis c",
+                "What can I do for hepatitis c?"
+            ],
+            "responses": [
+                "The diagnosis is Hepatitis C. Direct-acting antivirals, like sofosbuvir, are used to cure Hepatitis C by targeting the virus directly."
+            ]
+        },
+        {
+            "tag": "pneumonia",
+            "patterns": [
+                "chills, fatigue, cough, high fever, breathlessness, sweating, malaise, chest pain, fast heart rate, rusty sputum",
+                "I have symptoms related to pneumonia",
+                "I think I have pneumonia",
+                "My symptoms point to pneumonia",
+                "What can I do for pneumonia?"
+            ],
+            "responses": [
+                "The diagnosis is Pneumonia. For bacterial pneumonia, antibiotics like amoxicillin or azithromycin are prescribed to fight the infection."
+            ]
+        },
+        {
+            "tag": "pneumonia",
+            "patterns": [
+                "chills, fatigue, cough, high fever, breathlessness, sweating, malaise, phlegm, chest pain, fast heart rate, rusty sputum",
+                "I have symptoms related to pneumonia",
+                "I think I have pneumonia",
+                "My symptoms point to pneumonia",
+                "What can I do for pneumonia?"
+            ],
+            "responses": [
+                "The diagnosis is Pneumonia. For bacterial pneumonia, antibiotics like amoxicillin or azithromycin are prescribed to fight the infection."
+            ]
+        },
+        {
+            "tag": "pneumonia",
+            "patterns": [
+                "fatigue, cough, high fever, breathlessness, sweating, malaise, phlegm, chest pain, fast heart rate, rusty sputum",
+                "I have symptoms related to pneumonia",
+                "I think I have pneumonia",
+                "My symptoms point to pneumonia",
+                "What can I do for pneumonia?"
+            ],
+            "responses": [
+                "The diagnosis is Pneumonia. For bacterial pneumonia, antibiotics like amoxicillin or azithromycin are prescribed to fight the infection."
+            ]
+        },
+        {
+            "tag": "pneumonia",
+            "patterns": [
+                "chills, cough, high fever, breathlessness, sweating, malaise, phlegm, chest pain, fast heart rate, rusty sputum",
+                "I have symptoms related to pneumonia",
+                "I think I have pneumonia",
+                "My symptoms point to pneumonia",
+                "What can I do for pneumonia?"
+            ],
+            "responses": [
+                "The diagnosis is Pneumonia. For bacterial pneumonia, antibiotics like amoxicillin or azithromycin are prescribed to fight the infection."
+            ]
+        },
+        {
+            "tag": "pneumonia",
+            "patterns": [
+                "chills, fatigue, high fever, breathlessness, sweating, malaise, phlegm, chest pain, fast heart rate, rusty sputum",
+                "I have symptoms related to pneumonia",
+                "I think I have pneumonia",
+                "My symptoms point to pneumonia",
+                "What can I do for pneumonia?"
+            ],
+            "responses": [
+                "The diagnosis is Pneumonia. For bacterial pneumonia, antibiotics like amoxicillin or azithromycin are prescribed to fight the infection."
+            ]
+        },
+        {
+            "tag": "pneumonia",
+            "patterns": [
+                "chills, fatigue, cough, breathlessness, sweating, malaise, phlegm, chest pain, fast heart rate, rusty sputum",
+                "I have symptoms related to pneumonia",
+                "I think I have pneumonia",
+                "My symptoms point to pneumonia",
+                "What can I do for pneumonia?"
+            ],
+            "responses": [
+                "The diagnosis is Pneumonia. For bacterial pneumonia, antibiotics like amoxicillin or azithromycin are prescribed to fight the infection."
+            ]
+        },
+        {
+            "tag": "pneumonia",
+            "patterns": [
+                "chills, fatigue, cough, high fever, sweating, malaise, phlegm, chest pain, fast heart rate, rusty sputum",
+                "I have symptoms related to pneumonia",
+                "I think I have pneumonia",
+                "My symptoms point to pneumonia",
+                "What can I do for pneumonia?"
+            ],
+            "responses": [
+                "The diagnosis is Pneumonia. For bacterial pneumonia, antibiotics like amoxicillin or azithromycin are prescribed to fight the infection."
+            ]
+        },
+        {
+            "tag": "pneumonia",
+            "patterns": [
+                "chills, fatigue, cough, high fever, breathlessness, malaise, phlegm, chest pain, fast heart rate, rusty sputum",
+                "I have symptoms related to pneumonia",
+                "I think I have pneumonia",
+                "My symptoms point to pneumonia",
+                "What can I do for pneumonia?"
+            ],
+            "responses": [
+                "The diagnosis is Pneumonia. For bacterial pneumonia, antibiotics like amoxicillin or azithromycin are prescribed to fight the infection."
+            ]
+        },
+        {
+            "tag": "pneumonia",
+            "patterns": [
+                "chills, fatigue, cough, high fever, breathlessness, sweating, phlegm, chest pain, fast heart rate, rusty sputum",
+                "I have symptoms related to pneumonia",
+                "I think I have pneumonia",
+                "My symptoms point to pneumonia",
+                "What can I do for pneumonia?"
+            ],
+            "responses": [
+                "The diagnosis is Pneumonia. For bacterial pneumonia, antibiotics like amoxicillin or azithromycin are prescribed to fight the infection."
+            ]
+        },
+        {
+            "tag": "arthritis",
+            "patterns": [
+                "muscle weakness, stiff neck, swelling joints, movement stiffness, painful walking",
+                "I have symptoms related to arthritis",
+                "I think I have arthritis",
+                "My symptoms point to arthritis",
+                "What can I do for arthritis?"
+            ],
+            "responses": [
+                "The diagnosis is Arthritis. For arthritis, NSAIDs can relieve joint pain, and medications like methotrexate can slow disease progression."
+            ]
+        },
+        {
+            "tag": "arthritis",
+            "patterns": [
+                "stiff neck, swelling joints, movement stiffness, painful walking",
+                "I have symptoms related to arthritis",
+                "I think I have arthritis",
+                "My symptoms point to arthritis",
+                "What can I do for arthritis?"
+            ],
+            "responses": [
+                "The diagnosis is Arthritis. For arthritis, NSAIDs can relieve joint pain, and medications like methotrexate can slow disease progression."
+            ]
+        },
+        {
+            "tag": "arthritis",
+            "patterns": [
+                "muscle weakness, swelling joints, movement stiffness, painful walking",
+                "I have symptoms related to arthritis",
+                "I think I have arthritis",
+                "My symptoms point to arthritis",
+                "What can I do for arthritis?"
+            ],
+            "responses": [
+                "The diagnosis is Arthritis. For arthritis, NSAIDs can relieve joint pain, and medications like methotrexate can slow disease progression."
+            ]
+        },
+        {
+            "tag": "arthritis",
+            "patterns": [
+                "muscle weakness, stiff neck, movement stiffness, painful walking",
+                "I have symptoms related to arthritis",
+                "I think I have arthritis",
+                "My symptoms point to arthritis",
+                "What can I do for arthritis?"
+            ],
+            "responses": [
+                "The diagnosis is Arthritis. For arthritis, NSAIDs can relieve joint pain, and medications like methotrexate can slow disease progression."
+            ]
+        },
+        {
+            "tag": "arthritis",
+            "patterns": [
+                "muscle weakness, stiff neck, swelling joints, painful walking",
+                "I have symptoms related to arthritis",
+                "I think I have arthritis",
+                "My symptoms point to arthritis",
+                "What can I do for arthritis?"
+            ],
+            "responses": [
+                "The diagnosis is Arthritis. For arthritis, NSAIDs can relieve joint pain, and medications like methotrexate can slow disease progression."
+            ]
+        },
+        {
+            "tag": "arthritis",
+            "patterns": [
+                "muscle weakness, stiff neck, swelling joints, movement stiffness",
+                "I have symptoms related to arthritis",
+                "I think I have arthritis",
+                "My symptoms point to arthritis",
+                "What can I do for arthritis?"
+            ],
+            "responses": [
+                "The diagnosis is Arthritis. For arthritis, NSAIDs can relieve joint pain, and medications like methotrexate can slow disease progression."
+            ]
+        },
+        {
+            "tag": "psoriasis",
+            "patterns": [
+                "skin rash, joint pain, skin peeling, silver like dusting, small dents in nails, inflammatory nails",
+                "I have symptoms related to psoriasis",
+                "I think I have psoriasis",
+                "My symptoms point to psoriasis",
+                "What can I do for psoriasis?"
+            ],
+            "responses": [
+                "The diagnosis is Psoriasis. To manage psoriasis, topical treatments like corticosteroids can reduce inflammation, and biologics are used for severe cases."
+            ]
+        },
+        {
+            "tag": "psoriasis",
+            "patterns": [
+                "joint pain, skin peeling, silver like dusting, small dents in nails, inflammatory nails",
+                "I have symptoms related to psoriasis",
+                "I think I have psoriasis",
+                "My symptoms point to psoriasis",
+                "What can I do for psoriasis?"
+            ],
+            "responses": [
+                "The diagnosis is Psoriasis. To manage psoriasis, topical treatments like corticosteroids can reduce inflammation, and biologics are used for severe cases."
+            ]
+        },
+        {
+            "tag": "psoriasis",
+            "patterns": [
+                "skin rash, skin peeling, silver like dusting, small dents in nails, inflammatory nails",
+                "I have symptoms related to psoriasis",
+                "I think I have psoriasis",
+                "My symptoms point to psoriasis",
+                "What can I do for psoriasis?"
+            ],
+            "responses": [
+                "The diagnosis is Psoriasis. To manage psoriasis, topical treatments like corticosteroids can reduce inflammation, and biologics are used for severe cases."
+            ]
+        },
+        {
+            "tag": "psoriasis",
+            "patterns": [
+                "skin rash, joint pain, silver like dusting, small dents in nails, inflammatory nails",
+                "I have symptoms related to psoriasis",
+                "I think I have psoriasis",
+                "My symptoms point to psoriasis",
+                "What can I do for psoriasis?"
+            ],
+            "responses": [
+                "The diagnosis is Psoriasis. To manage psoriasis, topical treatments like corticosteroids can reduce inflammation, and biologics are used for severe cases."
+            ]
+        },
+        {
+            "tag": "psoriasis",
+            "patterns": [
+                "skin rash, joint pain, skin peeling, small dents in nails, inflammatory nails",
+                "I have symptoms related to psoriasis",
+                "I think I have psoriasis",
+                "My symptoms point to psoriasis",
+                "What can I do for psoriasis?"
+            ],
+            "responses": [
+                "The diagnosis is Psoriasis. To manage psoriasis, topical treatments like corticosteroids can reduce inflammation, and biologics are used for severe cases."
+            ]
+        },
+        {
+            "tag": "psoriasis",
+            "patterns": [
+                "skin rash, joint pain, skin peeling, silver like dusting, inflammatory nails",
+                "I have symptoms related to psoriasis",
+                "I think I have psoriasis",
+                "My symptoms point to psoriasis",
+                "What can I do for psoriasis?"
+            ],
+            "responses": [
+                "The diagnosis is Psoriasis. To manage psoriasis, topical treatments like corticosteroids can reduce inflammation, and biologics are used for severe cases."
+            ]
+        },
+        {
+            "tag": "psoriasis",
+            "patterns": [
+                "skin rash, joint pain, skin peeling, silver like dusting, small dents in nails",
+                "I have symptoms related to psoriasis",
+                "I think I have psoriasis",
+                "My symptoms point to psoriasis",
+                "What can I do for psoriasis?"
+            ],
+            "responses": [
+                "The diagnosis is Psoriasis. To manage psoriasis, topical treatments like corticosteroids can reduce inflammation, and biologics are used for severe cases."
+            ]
+        },
+        {
+            "tag": "impetigo",
+            "patterns": [
+                "skin rash, high fever, blister, red sore around nose, yellow crust ooze",
+                "I have symptoms related to impetigo",
+                "I think I have impetigo",
+                "My symptoms point to impetigo",
+                "What can I do for impetigo?"
+            ],
+            "responses": [
+                "The diagnosis is Impetigo. For impetigo, applying a topical antibiotic like mupirocin can clear the infection. Severe cases might require oral antibiotics like cephalexin."
+            ]
+        },
+        {
+            "tag": "impetigo",
+            "patterns": [
+                "high fever, blister, red sore around nose, yellow crust ooze",
+                "I have symptoms related to impetigo",
+                "I think I have impetigo",
+                "My symptoms point to impetigo",
+                "What can I do for impetigo?"
+            ],
+            "responses": [
+                "The diagnosis is Impetigo. For impetigo, applying a topical antibiotic like mupirocin can clear the infection. Severe cases might require oral antibiotics like cephalexin."
+            ]
+        },
+        {
+            "tag": "impetigo",
+            "patterns": [
+                "skin rash, blister, red sore around nose, yellow crust ooze",
+                "I have symptoms related to impetigo",
+                "I think I have impetigo",
+                "My symptoms point to impetigo",
+                "What can I do for impetigo?"
+            ],
+            "responses": [
+                "The diagnosis is Impetigo. For impetigo, applying a topical antibiotic like mupirocin can clear the infection. Severe cases might require oral antibiotics like cephalexin."
+            ]
+        },
+        {
+            "tag": "impetigo",
+            "patterns": [
+                "skin rash, high fever, red sore around nose, yellow crust ooze",
+                "I have symptoms related to impetigo",
+                "I think I have impetigo",
+                "My symptoms point to impetigo",
+                "What can I do for impetigo?"
+            ],
+            "responses": [
+                "The diagnosis is Impetigo. For impetigo, applying a topical antibiotic like mupirocin can clear the infection. Severe cases might require oral antibiotics like cephalexin."
+            ]
+        },
+        {
+            "tag": "impetigo",
+            "patterns": [
+                "skin rash, high fever, blister, yellow crust ooze",
+                "I have symptoms related to impetigo",
+                "I think I have impetigo",
+                "My symptoms point to impetigo",
+                "What can I do for impetigo?"
+            ],
+            "responses": [
+                "The diagnosis is Impetigo. For impetigo, applying a topical antibiotic like mupirocin can clear the infection. Severe cases might require oral antibiotics like cephalexin."
+            ]
+        },
+        {
+            "tag": "impetigo",
+            "patterns": [
+                "skin rash, high fever, blister, red sore around nose",
+                "I have symptoms related to impetigo",
+                "I think I have impetigo",
+                "My symptoms point to impetigo",
+                "What can I do for impetigo?"
+            ],
+            "responses": [
+                "The diagnosis is Impetigo. For impetigo, applying a topical antibiotic like mupirocin can clear the infection. Severe cases might require oral antibiotics like cephalexin."
+            ]
+        },
+        {
+            "tag": "symptom_list",
+            "patterns": [
+                "I don't know what my symptoms are",
+                "Can you help me with symptoms?",
+                "What are the common symptoms?",
+                "List the symptoms you know",
+                "What are the symptoms of diseases?",
+                "Tell me about symptoms",
+                "Help me understand symptoms",
+                "Can you explain symptoms?",
+                "What should I look for in symptoms?",
+                "Please list all symptoms",
+                "Can you describe common symptoms?"
+            ],
+            "responses": [
+                "Here are some common symptoms with descriptions:\n1. Itching: An irritating sensation that makes you want to scratch.\n2. Skin Rash: Red or inflamed skin, often itchy or painful.\n3. Nodal Skin Eruptions: Small, raised, and sometimes painful bumps on the skin.\n4. Continuous Sneezing: Frequent sneezing episodes, often due to allergies.\n5. Shivering: Involuntary shaking of the body, often due to cold or fever.\n6. Chills: Feeling cold with or without shivering, sometimes accompanied by fever.\n7. Joint Pain: Pain or discomfort in the joints, often due to inflammation.\n8. Stomach Pain: Pain or discomfort in the abdominal area.\n9. Acidity: A burning sensation in the stomach or chest caused by acid reflux.\n10. Ulcers on Tongue: Small, painful sores on the tongue or inside the mouth."
+            ]
+        }
+    ]
+}
